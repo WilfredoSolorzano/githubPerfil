@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: block; 
+    background-color: rgb(181, 247, 225);
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+:root{
+    --corPrincipal:#2980b9;
+    --corSecundaria:#111;
+}
